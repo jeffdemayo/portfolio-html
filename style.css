@@ -121,23 +121,6 @@ a:houver {
   text-align: center;
 }
 
-.container-topo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.foto-perfil {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #3b82f6;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
 .container-topo h1 {
   font-size: 2.5rem;
   margin: 0;
@@ -146,4 +129,23 @@ a:houver {
 .container-topo p {
   font-size: 1.2rem;
   color: #555;
+}
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3b82f6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+}
+
+.container-topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: left;
 }
